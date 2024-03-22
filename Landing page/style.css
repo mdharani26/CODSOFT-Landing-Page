@@ -1,0 +1,252 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:  "Madimi One", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+:root{
+    --bg-color: #fff;
+    --text-color: #221314;
+    --second-color: #5a7184;
+    --main-color: #6e54fa;
+    --big-font: 6rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem
+} 
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 30px 18%;
+    transition: ease .40s;
+}
+
+
+.logo{
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--text-color);
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    color: var(--text-color);
+    font-size: var(--p-font);
+    font-weight: bold;
+    padding: 10px 22px;
+    border-radius: 4px;
+    transition: ease .40s;
+}
+
+.navbar a:hover{
+    background: var(--bg-color);
+    color: var(--text-color);
+    box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+    border-radius: 4px;
+}
+
+#menuicon{
+    color: var(--bg-color);
+    font-size: 35px;
+    z-index: 1001;
+    cursor: pointer;
+    display: none;
+}
+
+section{
+    padding: 80px 18px;
+}
+
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(img/bg\ home.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+
+.caption h1{
+    font-size: var(--big-font);
+    line-height: 1.1;
+    color: var(black);
+    font-family: "Almendra", serif;
+    letter-spacing: 4px;
+    margin-bottom: 20px ;
+    padding-left: 60px;
+
+}
+
+.caption p{
+    color:black;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 38px;
+    margin-bottom: 50px;
+    padding-left: 80px;
+}
+
+.about h2{
+    font-size: var(--h2-font);
+    line-height: 1.1;
+    text-align: center;
+    
+}
+
+.rowservice{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.containerbox{
+    border: 1px solid;
+    width: 500px;
+    height: 450px;
+    padding: 25px;
+    align-items: center;
+    margin-left: 480px;
+    padding-bottom: 10px;
+}
+
+.containerbox h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+
+#button{
+   
+    color: white;
+    padding-top: 50px;
+    padding-left: 5px; 
+}
+
+
+button{
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: bold;
+    font-weight: bold;
+    margin-left: 175px;
+}
+
+button:hover {
+    background-color: grey;
+    box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+    border-radius: 4px; 
+}
+
+.packagecon{
+    /*display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;*/
+    border: 1px solid;
+    width: 550px;
+    height: 580px;
+    padding: 25px;
+    align-items: center;
+    margin-left: 480px;
+    padding-bottom: 30px;
+
+}
+
+/*.box{
+    background: var(--bg-color);
+    border: 1px solid black;
+    padding: 10px 5px;
+    border-radius: 5px;
+    transition: all 1s ease 0s;
+    
+}*/
+
+.box h3{
+    font-family: "Tapestry", serif;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 7px;
+    margin-left: 80px;
+}
+
+.title h2{
+    font-size: var(--h2-font);
+    line-height: 1.1;
+    text-align: center;
+}
+
+.background{
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+}
+
+.forms{
+    background-color: rgba(138, 205, 205, 0.7);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 500px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 34px;
+}
+
+.forms h1{
+    font-size: var(--h2-font);
+    line-height: 1.5;
+    text-align: center;
+}
+
+input{
+    padding: 15px;
+}
+
+td{
+    padding: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
